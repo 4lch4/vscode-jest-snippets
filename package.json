@@ -8,13 +8,16 @@
         "Snippets"
     ],
     "contributes": {
-        "snippets": [{
-            "language": "jest",
-            "path": "./snippets/snippets.json"
-        }, {
-            "language": "javascript",
-            "path": "./snippets/snippets.json"
-        }]
+        "snippets": [
+            {
+                "language": "jest",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
     },
     "description": "Various code snippets I use throughout my time working with Jest as a Node.js developer.",
     "displayName": "Alcha's Jest Snippets",
@@ -38,5 +41,5 @@
         "type": "git",
         "url": "https://github.com/Alcha/vscode-jest-snippets"
     },
-    "version": "0.0.2"
+    "version": "0.0.3"
 }
