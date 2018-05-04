@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.4] - 2018/05/04
+
+### Changed
+
+- `testa` prefix is now just `test`
+
 ## [0.0.3] - 2018/05/04
 
 ### Added
