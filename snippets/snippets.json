@@ -1,0 +1,26 @@
+{
+  "test": {
+    "prefix": "testa",
+    "body": "test('The ${1:...}'), () => {\n\t$0\n}",
+    "description": "Creates a basic Jest test block.",
+    "scope": "source.js"
+  },
+  "toBe": {
+    "prefix": "tb",
+    "body": "expect($1).toBe($0)",
+    "description": "Creates a test block where one value expects to be the same as the other.",
+    "scope": "source.js"
+  },
+  "matchingString": {
+    "prefix": "mstr",
+    "body": "expect($1).toEqual(expect.stringMatching($0))",
+    "description": "Creates an expectation the two match on a string level in some way.",
+    "scope": "source.js"
+  },
+  "toEqual": {
+    "prefix": "te",
+    "body": "expect($1).toEqual($0)",
+    "description": "Creates an expectation that two objects are considered equal.",
+    "scope" :"source.js"
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "author": {
+        "email": "info@hasslefree.solutions",
+        "name": "Alcha",
+        "url": "https://hasslefree.solutions"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+            "language": "jest",
+            "path": "./snippets/snippets.json"
+        }, {
+            "language": "javascript",
+            "path": "./snippets/snippets.json"
+        }]
+    },
+    "description": "Various code snippets I use throughout my time working with Jest as a Node.js developer.",
+    "displayName": "Alcha's Jest Snippets",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "galleryBanner": {
+        "color": "#64B5F6",
+        "theme": "dark"
+    },
+    "icon": "images/icon-128x128.png",
+    "keywords": [
+        "snippets",
+        "jest",
+        "javascript"
+    ],
+    "license": "MIT",
+    "name": "alchas-jest-snippets",
+    "publisher": "HF-Solutions",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Alcha/vscode-jest-snippets"
+    },
+    "version": "0.0.2"
+}
